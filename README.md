@@ -27,7 +27,7 @@ Watch the project overview video [here](https://drive.google.com/file/d/1oGqrafm
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/news-app.git
+   git clone https://github.com/mifsshubhamm/Drop_Welcome_Test_FE.git
    cd news-app
    ```
 
