@@ -18,6 +18,10 @@ This Hacker News is a news application that fetches and displays news stories. I
 - TypeScript
 - date-fns (for date formatting)
 
+## Project Overview
+
+Watch the project overview video [here](https://drive.google.com/file/d/1oGqrafm_WLiG4S8hGOsm6qDMMg6_I4Gv/view?usp=sharing).
+
 ## Installation
 
 1. Clone the repository:
