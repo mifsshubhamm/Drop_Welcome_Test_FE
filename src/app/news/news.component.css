@@ -1,0 +1,28 @@
+.bg-orange {
+  background-color: #ff6600;
+}
+
+.bg-gray {
+  background-color: #f6f6ef;
+}
+
+.font-main {
+  font-size: small;
+  color: gray;
+}
+
+.font-title {
+  font-weight: 500;
+  color: black;
+}
+
+.font-title-disable {
+  font-weight: 500;
+  color: gray;
+}
+
+.font {
+  font-size: x-small;
+  margin-left: 0.8rem;
+}
+

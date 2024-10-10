@@ -1,0 +1,24 @@
+<div class="container mt-2">
+    <div class="bg-orange fs-10">
+        <span class="ms-2">Hacker News</span>
+    </div>
+    <div class="bg-gray">
+        <div *ngFor="let news of newsList(); let i = index; let last = last" class="list-group-item" #itemElement aria-current="true">
+            <div class="d-grid p-2"
+                 (click)="clickNews(news)" 
+                 (keydown)="handleKeyDown($event, news)" 
+                 style="cursor: pointer;">
+                <span class="font-main">{{i + 1}}. &#9650; 
+                    @if (news.url != null) {
+                        <span class="font-title">{{news?.title || news?.text || ""}}</span>
+                    } @else {
+                        <span class="font-title-disable">{{news?.title || news?.text || ""}}</span>
+                    }
+                    </span>
+                <div class="container">
+                    <span class="font">{{news?.score || 0}} point by {{news?.by || ""}} {{(news?.time || 0) | timeAgo}} | hide | {{news?.kids?.length || 0}} comments</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
