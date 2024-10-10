@@ -28,7 +28,7 @@ Watch the project overview video [here](https://drive.google.com/file/d/1oGqrafm
 
    ```bash
    git clone https://github.com/mifsshubhamm/Drop_Welcome_Test_FE.git
-   cd news-app
+   cd Drop_Welcome_Test_FE
    ```
 
 2. Install the dependencies:
